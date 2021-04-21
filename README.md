@@ -1,4 +1,4 @@
-# Trillo CSS Project
+# Nexter HTML & CSS Project
 
 ## :balloon: Overview
 
