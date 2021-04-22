@@ -10,10 +10,16 @@
 
 .heading-2 {
   @extend %heading-placeholder;
+  font-size: 4rem;
+  font-style: italic;
+  line-height: 1;
 }
 
 .heading-3 {
   @extend %heading-placeholder;
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: $color-primary;
 }
 
 .heading-4 {
@@ -27,5 +33,20 @@
 
   &--light {
     color: $color-grey-light-1;
+  }
+}
+
+.mb {
+  &-hg {
+    margin-bottom: 8rem;
+  }
+  &-lg {
+    margin-bottom: 4rem;
+  }
+  &-m {
+    margin-bottom: 3rem;
+  }
+  &-sm {
+    margin-bottom: 2rem;
   }
 }
