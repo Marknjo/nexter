@@ -50,3 +50,21 @@
     margin-bottom: 2rem;
   }
 }
+
+//button
+.btn {
+  border: none;
+  outline: none;
+  border-radius: 0;
+  padding: 1.6rem 4rem;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  color: $color-grey-light-1;
+  background-color: $color-primary;
+  transition: all 0.2s;
+
+  &:hover,
+  &:active {
+    background-color: $color-primary-dark;
+  }
+}
