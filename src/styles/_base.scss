@@ -43,9 +43,4 @@ body {
     [sidebar-start] 7rem [sidebar-end full-start] minmax(6rem, 1fr)
     [mid-start]repeat(8, [col-start] minmax(min-content, 14rem) [col-end])
     [mid-end] minmax(6rem, 1fr) [full-end];
-
-  & > * {
-    font-size: 4rem;
-    padding: 4rem 0;
-  }
 }
