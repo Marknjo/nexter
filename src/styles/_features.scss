@@ -1,15 +1,15 @@
 .features {
   grid-column: mid-start / mid-end;
-  margin: 8rem 0;
+  margin: $section-margins;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
-  gap: 6rem;
+  gap: $grid-gap-L;
   align-items: start;
 }
 
 .feature {
   display: grid;
-  grid-template-columns: auto 1fr;
+  grid-template-columns: min-content 1fr;
   row-gap: 0.8rem;
   column-gap: 1.6rem;
 
@@ -22,6 +22,6 @@
   }
 
   &__text {
-    font-size: 1.8rem;
+    font-size: 1.7rem;
   }
 }
