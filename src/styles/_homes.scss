@@ -2,7 +2,7 @@
   grid-column: mid-start / mid-end;
 
   display: grid;
-  grid-template-columns: repeat(3, minmax(25rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
   gap: $grid-gap-L;
   margin: $section-margins;
 }
