@@ -17,10 +17,19 @@
 
   padding: 8rem;
 
+  @media only screen and (max-width: $break-900px) {
+    grid-column: 1 / -1;
+  }
+
   &__logo {
     height: 3rem;
     width: auto;
     justify-self: center;
+
+    @media only screen and (max-width: $break-900px) {
+      height: 5rem;
+      width: auto;
+    }
   }
 
   &__btn {

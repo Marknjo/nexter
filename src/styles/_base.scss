@@ -23,6 +23,7 @@ $grid-gap-L: 6rem;
 //Media query breakpoints
 $break-1200px: 75em;
 $break-1000px: 62.5em;
+$break-900px: 56.25em;
 
 *,
 *::before,
@@ -62,5 +63,9 @@ body {
       [full-start] minmax(6rem, 1fr)
       [mid-start]repeat(8, [col-start] minmax(min-content, 14rem) [col-end])
       [mid-end] minmax(6rem, 1fr) [full-end];
+  }
+
+  @media only screen and (max-width: $break-900px) {
+    grid-template-rows: 6rem calc(100vh - 6rem);
   }
 }
