@@ -6,11 +6,22 @@
 
 .heading-1 {
   @extend %heading-placeholder;
+  font-size: 4rem;
+  text-transform: capitalize;
+  line-height: 1;
+
+  &--dark {
+    color: $color-grey-dark-1;
+  }
+
+  &--light {
+    color: $color-grey-light-1;
+  }
 }
 
 .heading-2 {
   @extend %heading-placeholder;
-  font-size: 4rem;
+  font-size: 4.5rem;
   font-style: italic;
   line-height: 1;
 }
@@ -68,4 +79,12 @@
   &:active {
     background-color: $color-primary-dark;
   }
+}
+
+.text-line-h-1 {
+  line-height: 1;
+}
+
+.text-line-h-0 {
+  line-height: 0;
 }
