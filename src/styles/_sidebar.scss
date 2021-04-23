@@ -3,3 +3,36 @@
   grid-column: sidebar-start / sidebar-end;
   grid-row: 1 / -1;
 }
+
+.sidebar-collapse__btn {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  border-radius: 0;
+
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+
+  margin: 3rem auto;
+  width: 4.5rem;
+  padding: 1.25rem 0;
+
+  border-top: 2px solid $color-grey-light-1;
+  border-bottom: 2px solid $color-grey-light-1;
+
+  cursor: pointer;
+  transition: transform 0.2s;
+
+  &::before {
+    content: "";
+    display: block;
+    height: 1.5px;
+    width: 4.5rem;
+    background-color: $color-grey-light-1;
+  }
+
+  &:hover {
+    transform: translateY(-0.3rem);
+  }
+}
