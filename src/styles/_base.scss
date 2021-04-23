@@ -20,6 +20,10 @@ $font-display: "Josefin Sans", sans-serif;
 $section-margins: 15rem 0;
 $grid-gap-L: 6rem;
 
+//Media query breakpoints
+$break-1200px: 75em;
+$break-1000px: 62.5em;
+
 *,
 *::before,
 *::after {
@@ -31,6 +35,10 @@ $grid-gap-L: 6rem;
 html {
   box-sizing: border-box;
   font-size: 62.5%;
+
+  @media only screen and (max-width: $break-1200px) {
+    font-size: 50%;
+  }
 }
 
 body {
