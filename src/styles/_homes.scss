@@ -5,6 +5,10 @@
   grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
   gap: $grid-gap-L;
   margin: $section-margins;
+
+  @media only screen and (max-width: $break-600px) {
+    margin: 8rem 2.5rem;
+  }
 }
 
 .home {

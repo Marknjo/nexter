@@ -21,6 +21,10 @@
     grid-column: 1 / -1;
   }
 
+  @media only screen and (max-width: $break-600px) {
+    padding: 8rem 6rem;
+  }
+
   &__logo {
     height: 3rem;
     width: auto;
@@ -30,11 +34,19 @@
       height: 5rem;
       width: auto;
     }
+
+    @media only screen and (max-width: $break-600px) {
+      align-self: center;
+    }
   }
 
   &__btn {
     align-self: start;
     justify-self: start;
+
+    @media only screen and (max-width: $break-600px) {
+      margin-top: 4rem;
+    }
   }
 
   &__asseenon-text {
